@@ -1,7 +1,7 @@
 {
   "AWSEBDockerrunVersion": "1",
   "Image": {
-    "Name": "andrewbestbier/ci-comparison-blog",
+    "Name": "haruma/ci-comparison-blog",
     "Update": "true"
   },
   "Ports": [
