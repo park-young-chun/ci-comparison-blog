@@ -28,9 +28,9 @@ jobs:
     steps:
       - checkout
       - run: |
-          docker build -t andrewbestbier/ci-comparison-blog .     
+          docker build -t haruma/ci-comparison-blog .     
           docker login -u $DOCKER_USER -p $DOCKER_PASS
-          docker push andrewbestbier/ci-comparison-blog
+          docker push haruma/ci-comparison-blog
   deploy-aws:
     working_directory: ~/app
     docker:
